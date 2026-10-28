@@ -13,6 +13,7 @@ botoescurtir.forEach(function(botaocurtir){
              }
 }
 });
+
 const btnTema=documaent.querySelector(".btn-tema");
  btnTema.addEventListener("click",mudarTema);
  function mudarTema(){ 
