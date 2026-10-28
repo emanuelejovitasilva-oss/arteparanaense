@@ -14,7 +14,7 @@ botoescurtir.forEach(function(botaocurtir){
 }
 });
 
-const btnTema=documaent.querySelector(".btn-tema");
+const btnTema = documaentmaent.querySelector(".btn-tema");
  btnTema.addEventListener("click",mudarTema);
  function mudarTema(){ 
     documaent.body.classList.toggle("tema-escuro");
