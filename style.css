@@ -1,4 +1,4 @@
-: root{
+:root{
     --cor-fundo: #f4f1ea;
 --cor--texto: #222222;
 --cor-principal: 6b2d5c;
@@ -27,8 +27,8 @@ body {
 }
 
 header {
-    background-color: #6b2d5c;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara)
     text-align: center;
     padding: 30px;
 }
@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-    color: #6b2d5c;
+    color: var(--cor-principal);
 }
 
 p {
@@ -51,9 +51,9 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: #9b4d83;
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -61,7 +61,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #c77dff;
+    background-color: var(--cor-hover);
 }
 
 main {
@@ -70,7 +70,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: var(--cor-superficie)
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -87,15 +87,15 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: #f3d9fa;
+    background-color: var(--cor-rodape);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #6b2d5c;
+    border-left: 6px solid var (--cor-rodape);
     border-radius: 10px;
     flex: 1 1 300px;
 }
@@ -105,24 +105,24 @@ figcaption {
 }
 
 footer {
-    background-color: #222222;
-    color: white;
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 
 button { 
-    background-color:#91096f;
-    color:white;
-    bonder: none;
+    background-color:var(--cor-principal);
+    color:var(--cor-clara);
+    border: none;
     padding: 10px  15px;
     border-radius: 8px;
     cursor:pointer;
 }
 
 button:hover {
-    background-color:#e457ba;
+    background-color:var(--cor-hover);
 }
 
 .curtir {
@@ -130,7 +130,7 @@ button:hover {
     width: fit-content;
     margin: 20px auto;
 }
-galeria{
+.galeria{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
