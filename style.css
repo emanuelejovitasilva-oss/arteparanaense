@@ -4,7 +4,7 @@
     --cor-principal: #6b2d5c;
     --cor-secundaria: #9b4d83;
     --cor-hover: #c77dff;
-    --cor-superficie: #a30065;
+    --cor-superficie: #9b0361;
     --cor-card: #f3d9fa;
     --cor-legenda: #555555;
     --cor-clara: #ffffff;
@@ -19,7 +19,7 @@
     --cor-card: #2b2530;
     --cor-legenda: #bbbbbb;
 }
-
+modifiquei a cor 
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
